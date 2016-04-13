@@ -1,0 +1,44 @@
+body  {
+  font-family: Arial;
+  margin: 0px;
+}
+
+a {
+  color: red;
+}
+
+img{
+width: 300px;
+}
+
+p span{
+  font-weight: bold;
+  }
+.Header{
+  background-color: #99B5DD;
+  position: relative;;
+  top: 0px;
+  height: 10px;
+  padding: 10px 10px;
+  z-index: 0;
+  width: 100%
+}
+.Content{
+height: 200px;
+position: absolute;
+top: 60px;
+padding: 10px;
+z-index: 0px;
+font-size: 600px;
+width: 100%
+}
+.Footer{
+  background-color: #99B5DD;
+  position: fixed;
+  bottome: 0px;
+  height: 20px;
+  padding: 10px 10px;
+  font-size: 100px;
+  z-index: 0;
+  width: 100%
+}
